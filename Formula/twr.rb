@@ -14,23 +14,23 @@ class Twr < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/ignaval/twr/releases/download/v0.6.0/twr-aarch64-apple-darwin.tar.gz"
-      sha256 "9834fe24c7b36c2b8b22decd5a483dfb9d24e5a02dd8ee2e4d35f3f8556cac23"
+      url "https://github.com/ignaval/twr/releases/download/v0.7.0/twr-aarch64-apple-darwin.tar.gz"
+      sha256 "ef7681464aaaecf989cc366f157f0e26ceb7030c48f7fafe47a921b749cc1589"
     end
     on_intel do
-      url "https://github.com/ignaval/twr/releases/download/v0.6.0/twr-x86_64-apple-darwin.tar.gz"
-      sha256 "2e07bd07353c3f00c2ab356fc6ea366f696afa975d2caa4afae5609fa92a34a5"
+      url "https://github.com/ignaval/twr/releases/download/v0.7.0/twr-x86_64-apple-darwin.tar.gz"
+      sha256 "d7d173c2ecfbfe0c531202a46b88a140ebd6997af0521df3bf0735378642afda"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ignaval/twr/releases/download/v0.6.0/twr-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "aba6ff12825fd39ac66eb7b501f2e97c35f7ff772069447ec0b601b53813c188"
+      url "https://github.com/ignaval/twr/releases/download/v0.7.0/twr-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "a570bf50c4b7dad33e30bc0648136b6d6432e9e5d427555887692f22df350853"
     end
     on_intel do
-      url "https://github.com/ignaval/twr/releases/download/v0.6.0/twr-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "336030d5dbe85a06b424b4387e7bbb36ea8e6c94591ad9c60d78e39187243de6"
+      url "https://github.com/ignaval/twr/releases/download/v0.7.0/twr-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "b6ff40b2a8db3eabda4f22e893e9cc9476759e160d2ee294e841c1fe7023c717"
     end
   end
 
